@@ -1,9 +1,15 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Tahoma, serif;
 }
 main {
   background-color: #F1FAEE;
-  color: #1D3557;
+  color: #1d3557;
+}
+section {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 20px;
 }
 
 header, footer {
@@ -14,15 +20,16 @@ header, footer {
 
 /* Header/Nav CSS Section*/
 h1, h1 > p {
-  font-family: Arial, Tahoma, serif;
+  margin: 0px;
 }
 header > div {
   text-align: center;
+  margin: 0px;
 }
 nav {
   float: right;
   max-width: 800px;
-  padding: 15px; /* issue here maybe?*/
+  padding: 15px 0px; /* issue here maybe?*/
 }
 nav a {
   padding: 15px;
@@ -30,6 +37,23 @@ nav a {
   font-weight: 100;
 }
 /* Header/Nav CSS Section End*/
+
+
+/* Main / Section 1 / Interest */
+img {
+  border-radius: 15px;
+}
+#pictureOfOsacar {
+  /* border-radius: 25px; */
+  display: block;
+  padding: 50px 0px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+}
+/* Main / Section 1 / Interest End*/
+
 
 /* Links CSS Section*/
 a:link, a:visited {
