@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  background-color: #F1FAEE;
+  color: #1D3557;
+}
+
+header, footer {
+  background-color: #1d3557;
+  color: #F1FAEE;
+}
+
+
+/* Header/Nav CSS Section*/
+h1, h1 > p {
+  font-family: Arial, Tahoma, serif;
+}
+header > div {
+  text-align: center;
+}
+nav {
+  float: right;
+  max-width: 800px;
+  padding: 15px; /* issue here maybe?*/
+}
+nav a {
+  padding: 15px;
+  font-family: Georgia, Tahoma, serif;
+  font-weight: 100;
+}
+/* Header/Nav CSS Section End*/
+
+/* Links CSS Section*/
+a:link, a:visited {
+  text-align: center;
+  display: inline-block;
+}
+a:link { 
+  color: #457B9D;  
+  text-decoration: none;
+}
+a:visited {
+  color: #E63946;  
+  text-decoration: none; 
+}
+a:hover {
+  color: #ccc4b9; 
+  text-decoration: underline;
+}
+a:active { 
+  color: rgb(245, 97, 213);  
+  text-decoration: underline;
+}
+/* Links CSS Section End*/
+
+footer {
+
+}
