@@ -1,68 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Oscar Thinkful</title>
     <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    rel="stylesheet"
-    type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <!-- set up nav with Relative links, most likely will only need 3 of them-->
+      <div>
+        <h1>Oscar Thinkful</h1>
+        <!-- For some reason I can't add this styling in the 
+            style.css file without it being overwritten -->
+        <p style="margin-bottom: 0px">Software Developer</p>
+      </div>
+      <!-- Nav is set up nav with Relative links -->
       <nav>
-        <a href="#interest">Interest</a>
+        <a href="#intro">Intro</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
-      <div>
-        <h1>Oscar Thinkful</h1>
-        <p>Software Developer</p>
-      </div>
     </header>
 
     <main>
       <!-- -->
-      <section id="interest">
+      <article id="intro">
         <img id="pictureOfOsacar" src="images/oscar.jpg" width="300" />
         <h2>Hi! I'm Oscar Thinkful</h2>
         <div>
-          <p>I'm a software developer living in Riverside, California.</p>
+          <h3>I'm a software developer living in Riverside, California.</h3>
           <p>I'm a former forklift driver, I'm interested in:</p>
           <ul>
-            <li>A good book that you can get immersed in.</li>
-            <li>Peacful boring night.</li>
-            <li>Nice cup of coffee!</li>
+            <li>Keeping an open mind to new ways of doing things.</li>
+            <li>Creating new fun projects.</li>
+            <li>Developing my programming skills!</li>
           </ul>
           <!-- make think link to the cantact section of the site with relative link -->
-          <p>Please take a look at my website and feel free to <a href="#contact"><b>contact me!</b></a></p>
+          <p>
+            Please take a look at my website and feel free to
+            <a href="#contact"><b>contact me!</b></a>
+          </p>
         </div>
-        <hr>
-      </section>
-      
-      <section id="about">
-        <p>For the last 10 years, I've been working warehouse jobs and I've learned a lot and met a lot of great people but it's time for me to make a change.</p>
-        <p>I've started the transition of careers by starting this couse with <a href="https://www.thinkful.com/">Thinkful</a>. Who knows where I'll be a year from now.</p>
-        <hr>
-      </section>
-      
-      <section id="contact">
+        <hr />
+      </article>
+
+      <article id="about">
+        <p>
+          For the last 10 years, I've been working warehouse jobs and I've met a
+          lot of great people and learned how to work well in teams. This
+          experience helps a lot when working with other developers.
+        </p>
+        <p>
+          Outside of coding my interest include reading a good book, playing
+          video games, and hitting up the gym. I also like learning about
+          different cultures.
+        </p>
+        <hr />
+      </article>
+
+      <article id="contact">
         <!-- set up two links, one for linkedIn and another for github account -->
         <p>You can find me and these links, don't be a stanger!</p>
         <ol>
           <li>
-            <a href="https://www.linkedin.com/in/oscar-villarruel-2095a51b2/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/oscar-villarruel-2095a51b2/"
+              >LinkedIn</a
+            >
           </li>
           <li>
             <a href="https://github.com/Oscar378">Github</a>
           </li>
         </ol>
         <img src="images/riverside.jpg" width="300" />
-      </section>
+      </article>
     </main>
 
     <footer>

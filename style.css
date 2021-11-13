@@ -1,25 +1,20 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Tahoma, serif;
+  font-family: "sans-serif", Tahoma, serif;
 }
 main {
-  background-color: #F1FAEE;
+  background-color: #f1faee;
   color: #1d3557;
 }
-section {
-  max-width: 300px;
-  margin: auto;
-  padding-top: 20px;
-}
 
-header, footer {
+header,
+footer {
   background-color: #1d3557;
-  color: #F1FAEE;
+  color: #f1faee;
 }
-
 
 /* Header/Nav CSS Section*/
-h1, h1 > p {
+h1 {
   margin: 0px;
 }
 header > div {
@@ -27,9 +22,8 @@ header > div {
   margin: 0px;
 }
 nav {
-  float: right;
-  max-width: 800px;
-  padding: 15px 0px; /* issue here maybe?*/
+  display: flex;
+  justify-content: center;
 }
 nav a {
   padding: 15px;
@@ -37,7 +31,6 @@ nav a {
   font-weight: 100;
 }
 /* Header/Nav CSS Section End*/
-
 
 /* Main / Section 1 / Interest */
 img {
@@ -49,35 +42,54 @@ img {
   padding: 50px 0px;
   margin: 0 auto;
 }
+article {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#contact {
+    padding-bottom: 35px;
+}
 h2 {
   text-align: center;
 }
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
 /* Main / Section 1 / Interest End*/
 
-
 /* Links CSS Section*/
-a:link, a:visited {
+a:link,
+a:visited {
   text-align: center;
   display: inline-block;
 }
-a:link { 
-  color: #457B9D;  
+a:link {
+  color: #457b9d;
   text-decoration: none;
 }
 a:visited {
-  color: #E63946;  
-  text-decoration: none; 
+  color: #e63946;
+  text-decoration: none;
 }
 a:hover {
-  color: #ccc4b9; 
+  color: #ccc4b9;
   text-decoration: underline;
 }
-a:active { 
-  color: rgb(245, 97, 213);  
+a:active {
+  color: rgb(245, 97, 213);
   text-decoration: underline;
 }
 /* Links CSS Section End*/
 
-footer {
-
+/* Footer Section End*/
+footer p {
+    margin: 0;
+    min-height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
 }
+/* Footer Section End*/
