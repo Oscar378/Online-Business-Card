@@ -67,7 +67,7 @@ a:visited {
   display: inline-block;
 }
 a:link {
-  color: #457b9d;
+  color: #f1faee;
   text-decoration: none;
 }
 a:visited {
@@ -75,7 +75,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #ccc4b9;
+  color: #45b305;
   text-decoration: underline;
 }
 a:active {
