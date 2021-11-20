@@ -66,8 +66,12 @@ a:visited {
   text-align: center;
   display: inline-block;
 }
-a:link {
+header a:link {
   color: #f1faee;
+  text-decoration: none;
+}
+main a:link {
+  color: #1d3557;
   text-decoration: none;
 }
 a:visited {
